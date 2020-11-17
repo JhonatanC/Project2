@@ -2,10 +2,19 @@ html, body{
     height: 100%;
     
 }
+
+img{
+    max-width: 100%;
+}
+
 #wrapper{
     height: 100%;
 }
 
 .mgn-top{
     margin-top: 5rem;
+}
+
+.space-top-bottom-box{
+    margin: 1rem 0rem;
 }

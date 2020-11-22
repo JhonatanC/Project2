@@ -73,8 +73,8 @@
                 <div class="col-md-4 space-top-bottom-box">
                     <div class="card">
                         <div class="card-body">
-                          <img class="img-fluid" src="img/hotel1.jpg" alt="">
-                          <h5 class="card-title">Card title</h5>
+                          <img class="img-fluid" src="img/hotel1.jpg">
+                          <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Hotel 5">Card title</h5>
                           <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           <a href="#" class="card-link">Reservar</a>
@@ -151,5 +151,11 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
 </body>
 </html>
